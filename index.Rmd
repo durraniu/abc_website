@@ -1,5 +1,5 @@
 ---
-title: "abc_website"
+title: "This is Umair's Website"
 description: |
   Welcome to the website. I hope you enjoy it!
 site: distill::distill_website
@@ -11,5 +11,25 @@ knitr::opts_chunk$set(echo = FALSE)
 # Learn more about creating websites with Distill at:
 # https://rstudio.github.io/distill/website.html
 
+```
+
+I am a student at uwindsor...
+
+
+```{r}
+plot(cars)
+```
+
+
+![](https://media.giphy.com/media/uFlGZaUeQ7rv6B55io/giphy.gif)
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NDHSBUN_rVU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+```{r}
+library(vembedr)
+embed_youtube("NDHSBUN_rVU")
 ```
 
